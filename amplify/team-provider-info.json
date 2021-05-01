@@ -1,20 +1,44 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-devrole-dev-151150-authRole",
-      "UnauthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-dev-151150-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-dev-151150-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-devrole-dev-151150-deployment",
-      "UnauthRoleName": "amplify-devrole-dev-151150-unauthRole",
-      "StackName": "amplify-devrole-dev-151150",
-      "StackId": "arn:aws:cloudformation:us-east-1:766533415364:stack/amplify-devrole-dev-151150/25dd4950-a927-11eb-97ee-127c6c2d7f71",
-      "AmplifyAppId": "d1b3b9kvswcwog"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-devrole-dev-151150-authRole",
+            "UnauthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-dev-151150-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-dev-151150-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-devrole-dev-151150-deployment",
+            "UnauthRoleName": "amplify-devrole-dev-151150-unauthRole",
+            "StackName": "amplify-devrole-dev-151150",
+            "StackId": "arn:aws:cloudformation:us-east-1:766533415364:stack/amplify-devrole-dev-151150/25dd4950-a927-11eb-97ee-127c6c2d7f71",
+            "AmplifyAppId": "d1b3b9kvswcwog"
+        },
+        "categories": {
+            "auth": {
+                "devrole400aacda": {}
+            }
+        }
     },
-    "categories": {
-      "auth": {
-        "devrole400aacda": {}
-      }
+    "devrole": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-devrole-devrole-211840-authRole",
+            "UnauthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-devrole-211840-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::766533415364:role/amplify-devrole-devrole-211840-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-devrole-devrole-211840-deployment",
+            "UnauthRoleName": "amplify-devrole-devrole-211840-unauthRole",
+            "StackName": "amplify-devrole-devrole-211840",
+            "StackId": "arn:aws:cloudformation:us-east-1:766533415364:stack/amplify-devrole-devrole-211840/8ff29870-aa23-11eb-98a7-0ab4742ddfab",
+            "AmplifyAppId": "d2jrb2etw9grnt"
+        },
+        "categories": {
+            "auth": {
+                "devrole400aacda": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2jrb2etw9grnt",
+                    "type": "manual"
+                }
+            }
+        }
     }
-  }
 }
