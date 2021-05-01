@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "devrole400aacda": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
